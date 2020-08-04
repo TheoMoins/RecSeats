@@ -1,6 +1,6 @@
 # RecSeats
 
-**Author of the code:** Anon.
+**Author of the code:** Théo Moins
 
 This repository contains the source code and the results of "RecSeats: A Hybrid Convolutional Neural Network Choice Model for Seat Recommendations at Reserved Seating Venues".
 
@@ -13,7 +13,7 @@ For reasons of data anonymization, only the files concerning Locational Choice E
 
 ### Data
 
-This folder contains all the data used in the project. To date, it only one available folder containing locational choice experiment data is available online.
+This folder contains all the data used in the project. To date, only one available folder containing locational choice experiment data is available online.
 Details about those datasets can be found here : https://seatmaplab.com/public/locationalchoicedatasets/
 
 These are csv files where each line represents an available seat in a given configuration, which allows the input to be reconstructed, with a label indicating whether or not it has been chosen.
@@ -21,6 +21,7 @@ To avoid having to rebuild the input at each run, two subfolders *numpy* and *da
 
 Each experiment also has a JSON file containing all these parameters (filenames, room size, padding, etc.).
 
+To reproduce the results, just download the associated dataset on https://seatmaplab.com/public/locationalchoicedatasets/ and copy the two csv files (train/test) on this Data folder.
 
 ### Save
 
