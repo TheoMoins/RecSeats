@@ -1,0 +1,9 @@
+
+{
+  "batch_size":1,
+  "lr_opt":1e-3,
+  "momentum":0.99,
+  "weight_decay":0.8,
+  "init_value": 0.5,
+  "nesterov": 1
+}

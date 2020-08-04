@@ -1,0 +1,8 @@
+
+{
+  "nb_channels":2,
+  "nb_conv_layers":4,
+  "batch_size":32,
+  "lr_opt":1e-4,
+  "to_tensor": 1
+}

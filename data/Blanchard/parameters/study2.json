@@ -1,0 +1,15 @@
+
+{
+    "csv_train": "PS_ConcertData_Study2_FlatFile_INSAMPLE.csv",
+    "dataloader_train": "ConcertData_Study2_Train",
+    "csv_valid": "PS_ConcertData_Study2_FlatFile_HOLDOUT.csv",
+    "dataloader_valid": "ConcertData_Study2_Valid",
+    
+    "room_size": 20,
+    "padding": 5,
+    
+    "is_couple": false,
+    "no_choice": false,
+    
+    "is_wso": false
+}

@@ -1,0 +1,29 @@
+
+{
+    "beta": {
+        "beta_position": "True",
+        "beta_r1": "False",
+        "beta_r2": "True",
+        "beta_r3": "True",
+        "beta_ps": "True"
+            },
+
+    "n_clients": 100,
+    "classifier": "GBT",
+    "C":100,
+    "kernel_svc": "rbf",
+    "param_logistic": { 
+                        "class_weight":"balanced",
+                	    "penalty": "none",
+                	    "solver": "newton-cg"
+                      },
+    "param_forest": {
+                      "n_estimators":200
+                    },
+    "param_tree": {
+                	"min_samples_split": 2,
+                	"min_samples_leaf": 1,
+                	"max_depth":2
+                  },
+    "compute_cross_val":"False"
+}

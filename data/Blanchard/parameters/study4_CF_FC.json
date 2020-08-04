@@ -1,0 +1,14 @@
+{
+    "csv_train": "PS_Movie_Singles_Study4_CF_24ch_ForcedChoices_INSAMPLE_FlatFileForML.csv",
+    "dataloader_train": "Movie_Singles_Study4_CF_FC_Train",
+    "csv_valid": "PS_Movie_Singles_Study4_CF_24ch_ForcedChoices_HOLDOUT_FlatFileForML.csv",
+    "dataloader_valid": "Movie_Singles_Study4_CF_FC_Valid",
+    
+    "room_size": 12,
+    "padding": 0,
+    
+    "is_couple": false,
+    "no_choice": false,
+    
+    "is_wso": false
+}

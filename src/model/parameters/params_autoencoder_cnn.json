@@ -1,0 +1,6 @@
+
+{
+  "nb_channels":4,
+  "batch_size":32, 
+  "lr_opt":5e-3
+}
